@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Keila Daily</string>
+
+    <string name="navigation_drawer_open">Open Keila Daily</string>
+    <string name="navigation_drawer_close">Close Keila Daily</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_life">Life</string>
+    <string name="nav_boxing">Boxing</string>
+    <string name="nav_football">Football</string>
+    <string name="nav_noccmoeys">NoccMoeys</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="nav_sport">Sport</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>ទំព័រដើម</item>
+        <item>ជីវិតពិត</item>
+        <item>ប្រដាល់</item>
+        <item>បាល់ទាត់</item>
+        <item>NOCC AND MoEYS</item>
+        <item>កីឡាផ្សេងៗ</item>
+        <item>Video</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <!--<string name="url">http://tostenh.com/</string>-->
+    <string name="url">http://keiladaily_php.dev:8085/</string>
+    <string name="title_activity_items_detail">ItemsDetail</string>
+    <string name="title_activity_item">លំអិត</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "806956929467",
+    "firebase_url": "https://new-keila-4efdb.firebaseio.com",
+    "project_id": "new-keila-4efdb",
+    "storage_bucket": "new-keila-4efdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806956929467:android:74263c76e40dac71",
+        "android_client_info": {
+          "package_name": "android.com.keiladaily"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806956929467-8pdfdiffiagmrlstedq3jam0863766mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY4GLNO2k7fhT4CbPM_hDUiP7oEK630UU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

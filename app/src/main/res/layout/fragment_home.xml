@@ -1,0 +1,275 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.com.keiladaily.fragment.HomeFragment">
+
+    <ScrollView
+        android:id="@+id/scrollViewHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_about_us"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_bet"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:src="@drawable/bet188" />
+            <com.daimajia.slider.library.SliderLayout
+                android:id="@+id/slider"
+                android:layout_below="@+id/image_bet"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+            <ListView
+                android:id="@+id/simpleListView"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_below="@+id/slider">
+
+            </ListView>
+
+            <TextView
+                android:id="@+id/football_id"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/simpleListView"
+                android:background="@color/category"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:text="បាល់ទាត់"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/image_football"
+                android:layout_width="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:layout_height="250dp"
+                android:layout_below="@+id/football_id"
+                android:layout_margin="0dp"
+                android:padding="0dp"/>
+
+            <TextView
+                android:id="@+id/image_football_title"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/football_id"
+                android:layout_marginTop="200dp"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/image_football_date"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/football_id"
+                android:layout_marginTop="220dp"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent" />
+
+            <ListView
+                android:id="@+id/simpleListViewFootball"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_below="@+id/image_football"></ListView>
+
+            <TextView
+                android:id="@+id/NoccMoeys_id"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/simpleListViewFootball"
+                android:background="@color/category"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:text="NOCC And MoEYS"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/image_NoccMoeys"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/NoccMoeys_id"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:layout_margin="0dp"
+                android:padding="0dp" />
+
+            <TextView
+                android:id="@+id/image_NoccMoeys_title"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/NoccMoeys_id"
+                android:layout_marginTop="200dp"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/image_NoccMoeys_date"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/NoccMoeys_id"
+                android:layout_marginTop="220dp"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent" />
+
+            <ListView
+                android:id="@+id/simpleListViewNoccMoeys"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_below="@+id/image_NoccMoeys"></ListView>
+
+            <TextView
+                android:id="@+id/Sport_id"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/simpleListViewNoccMoeys"
+                android:background="@color/category"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:text="កីឡាផ្សេង"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/image_Sport"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/Sport_id"
+                android:layout_margin="0dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:padding="0dp"/>
+
+            <TextView
+                android:id="@+id/image_Sport_title"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/Sport_id"
+                android:layout_marginTop="200dp"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/image_Sport_date"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/Sport_id"
+                android:layout_marginTop="220dp"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent" />
+
+            <ListView
+                android:id="@+id/simpleListViewSport"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_below="@+id/image_Sport"></ListView>
+
+            <TextView
+                android:id="@+id/Life_id"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/simpleListViewSport"
+                android:background="@color/category"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:text="ជីវិតពិត"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/image_Life"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/Life_id"
+                android:layout_margin="0dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:padding="0dp" />
+
+            <TextView
+                android:id="@+id/image_Life_title"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/Life_id"
+                android:layout_marginTop="200dp"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/image_Life_date"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/Life_id"
+                android:layout_marginTop="220dp"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent" />
+
+            <ListView
+                android:id="@+id/simpleListViewLife"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_below="@+id/image_Life"></ListView>
+
+            <TextView
+                android:id="@+id/SportOnline_id"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/simpleListViewLife"
+                android:background="@color/category"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:text="កីឡាដេលីអនឡាញ"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/image_SportOnline"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@+id/SportOnline_id"
+                android:layout_margin="0dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:padding="0dp"/>
+
+            <TextView
+                android:id="@+id/image_SportOnline_title"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/SportOnline_id"
+                android:layout_marginTop="200dp"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/image_SportOnline_date"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/SportOnline_id"
+                android:layout_marginTop="220dp"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent" />
+
+            <ListView
+                android:id="@+id/simpleListViewSportOnline"
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:layout_below="@+id/image_SportOnline"></ListView>
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.com.keiladaily.activity.ItemActivity">
+
+    <ScrollView
+        android:id="@+id/scrollViewItems"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_about_us"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_bet"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:src="@drawable/bet188" />
+
+            <ImageView
+                android:id="@+id/imageItems"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/image_bet"/>
+            <TextView
+                android:id="@+id/categoryItems"
+                android:layout_below="@+id/imageItems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/category"
+                android:padding="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30dp"
+                android:text="ប្រដាល់"/>
+            <TextView
+                android:id="@+id/titleItems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/colorBlue"
+                android:textSize="30dp"
+                android:layout_below="@+id/categoryItems"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dateItems"
+                android:textColor="@color/colorDate"
+                android:layout_below="@+id/titleItems"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="3dp"/>
+            <!--<TextView-->
+                <!--android:id="@+id/contentItems"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:paddingLeft="10dp"-->
+                <!--android:paddingRight="10dp"-->
+                <!--android:layout_marginTop="3dp"-->
+                <!--android:layout_below="@+id/dateItems"-->
+                <!--android:textSize="25dp"-->
+                <!--android:layout_marginBottom="60dp"/>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dateItems"
+                android:id="@+id/linearLayoutContentValue"></LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

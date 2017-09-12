@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:textSize="50px"
+            android:title="ទំព័រដើម" />
+        <item
+            android:id="@+id/nav_life"
+            android:icon="@drawable/life"
+            android:textSize="50px"
+            android:title="ជីវិតពិត" />
+        <item
+            android:id="@+id/nav_boxing"
+            android:icon="@drawable/boxing"
+            android:textSize="50px"
+            android:title="ប្រដាល់" />
+
+        <item
+            android:id="@+id/nav_football"
+            android:icon="@drawable/ball"
+            android:textSize="50px"
+            android:title="បាល់ទាត់" />
+
+        <item
+            android:id="@+id/nav_noccmoeys"
+            android:icon="@drawable/n"
+            android:textSize="50px"
+            android:title="NOCC AND MoEYS" />
+        <item
+        android:id="@+id/nav_sport"
+        android:icon="@drawable/sport"
+        android:textSize="50px"
+        android:title="កីឡាផ្សេងៗ" />
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/ic_local_movies_black_24dp"
+            android:textSize="50px"
+            android:title="Video" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="@string/nav_about_us" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:title="@string/privacy_policy" />
+        </menu>
+    </item>
+
+</menu>

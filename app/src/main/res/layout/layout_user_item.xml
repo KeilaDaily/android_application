@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    android:weightSum="100"
+    android:layout_marginBottom="10dp"
+android:orientation="horizontal">
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="50"
+        android:id="@+id/linearLayoutUserItem1"
+        android:orientation="horizontal"
+        android:layout_marginRight="5dp">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="270dp"
+            android:background="@color/colorCoverInCategory">
+            <ImageView
+                android:id="@+id/iconLoading"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:padding="0dp"
+                android:src="@mipmap/ic_launcher" />
+            <TextView
+                android:id="@+id/tvDateLoading"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/iconLoading"
+                android:paddingTop="3dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="20dp"
+                android:text="10-02-1993"
+                android:textColor="@color/colorDate" />
+
+            <TextView
+                android:id="@+id/tvContentLoading"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_below="@+id/tvDateLoading"
+                android:layout_gravity="center"
+                android:maxLines="4"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:paddingTop="3dp"
+                android:text="10-02-19931"
+                android:textColor="@color/colorBlack" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="50"
+        android:id="@+id/linearLayoutUserItem2"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="270dp"
+            android:background="@color/colorCoverInCategory">
+            <ImageView
+                android:id="@+id/iconLoading1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:padding="0dp"
+                android:src="@mipmap/ic_launcher" />
+            <TextView
+                android:id="@+id/tvDateLoading1"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/iconLoading1"
+                android:paddingTop="3dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_height="20dp"
+                android:text="10-02-1993"
+                android:textColor="@color/colorDate" />
+
+            <TextView
+                android:id="@+id/tvContentLoading1"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_below="@+id/tvDateLoading1"
+                android:layout_gravity="center"
+                android:maxLines="4"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="16sp"
+                android:paddingTop="3dp"
+                android:text="10-02-19931"
+                android:textColor="@color/colorBlack" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
